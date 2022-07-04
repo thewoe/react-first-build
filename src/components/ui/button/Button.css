@@ -1,0 +1,29 @@
+button.defaultbutton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    height: 30px;
+    border-radius: 15px;
+    padding: 5px;
+}
+  
+button.defaultbutton > p.title {
+    flex: 1;
+    text-align: center;
+    min-width: 55px;
+    margin: 5px;
+}
+
+div.favoriteoverlay {
+    position: relative; 
+}
+
+div.favoriteoverlay > div.favorite {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    width: 40px;
+    height: 40px;
+    filter: invert(23%) sepia(85%) saturate(7303%) hue-rotate(357deg) brightness(98%) contrast(121%);
+}

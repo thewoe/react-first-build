@@ -1,0 +1,15 @@
+div.buttonbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+
+div.cardbar {
+    padding-top: 10px;
+}
+
+div.pagebar {
+    padding-bottom: 25px;
+}
